@@ -1,0 +1,60 @@
+.principal{
+    width: 900px;
+    height: auto;
+    border: 1px solid #000;
+}
+.text{
+    text-align: center;
+}
+.fond{
+    margin: 30px;
+    margin-left: 50px;
+}
+.cent{
+    margin-left: 50px;
+}
+
+.primero{
+    width: 770px;
+    height: 200px;
+    border: 1px solid #000;
+    
+}
+.segundo{
+    width: 130px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #366F91;
+    position: absolute;
+    left: 780px;
+    bottom: 254px;
+   
+}
+
+
+.fin{
+    width: 900px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: #4C9BD3;
+    text-align: center;
+}
+
+.boton{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+#rojo{
+    background-color: #FF0000;
+}
+#amarillo{
+    background-color: #FFFF00;
+}
+#verde{
+    background-color: #00B050;
+}
