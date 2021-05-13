@@ -2,19 +2,20 @@
 include("bdconx.php");
 
 $usuario =$_POST['nombre'];
-$clave = $_POST['contraseña'];
+$clave = sha1($_POST['contraseña']);
 
-$consulta = "SELECT * FROM nombres WHERE nombres = '$usuario' ";
+
+$consulta = "SELECT nombres,apellidos,nivel FROM usuarios WHERE nombres = '$usuario' and password = '$clave' ";
 
 $resultado = mysqli_query($conex,$consulta);
 
 $filas = mysqli_fetch_array($resultado);
 
 
-if($fila>0){
+if($fila!=null){
     header("location:index.php");
 }
 else{
     echo "error en la autenticacion";
 }
-/*and password = '$clave'*/
+?>
