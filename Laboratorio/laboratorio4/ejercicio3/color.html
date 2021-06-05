@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="div.css">
+   
+</head>
+<body>
+ <form action="">
+        <input type="radio" value ="r" name="color" id="Crojo"  onchange="cambio(this)">rojo
+        <input type="radio" value ="a" name="color" id="Camarillo" onchange="cambio(this)">amarillo
+        <input type="radio" value ="v" name="color" id="Cverde" onchange="cambio(this)">verde
+         
+    </form>
+ <div id="colorDiv">
+     Denys Alexander Mamani Ramirez
+</div>
+   <script>
+       function cambio(x){
+           if(x.value=="r"){
+               document.getElementById("colorDiv").style.background = "red";
+           }
+           if(x.value=="a"){
+               document.getElementById("colorDiv").style.background = "yellow";
+           }
+           if(x.value=="v"){
+               document.getElementById("colorDiv").style.background = "green";
+           }
+       }
+   </script>
+</body>
+</html>
