@@ -1,0 +1,60 @@
+.menu {
+background-color: rgb(173, 173, 173);
+width: 1300px;
+position: relative;
+float: left;
+border: red 5px double;
+}
+.boton{
+    background-color: #3539ff;
+    color: white;
+    border-radius: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    padding: 15px 25px;
+    text-decoration: none;
+    line-height : 80px;
+}
+.yo{
+    background-color: yellow;
+    width: 1000px;
+    position: relative;
+    bottom: 624px;
+    float: right;
+}
+.hobbis{
+    background-color: rgb(108, 108, 196);
+    width: 1000px;
+    position: relative;
+    bottom: 624px;
+    float: right;
+}
+.amigos{
+    background-color: rgb(250, 106, 106);
+    width: 1000px;
+    position: relative;
+    bottom: 624px;
+    float: right;
+}
+.familia{
+    background-color: rgb(4, 100, 25);
+    width: 1000px;
+    position: relative;
+    bottom: 624px;
+    float: right;
+}
+.ciudad{
+    background-color: rgb(54, 3, 236);
+    width: 1000px;
+    position: relative;
+    bottom: 624px;
+    float: right;
+}
+.mensaje{
+    background-color: rgb(197, 197, 197);
+    width: 1000px;
+    position: relative;
+    bottom: 624px;
+    float: right;
+}
