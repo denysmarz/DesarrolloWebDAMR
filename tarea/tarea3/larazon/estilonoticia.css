@@ -1,0 +1,113 @@
+.menucontenedor{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: solid 2px red;
+}
+/*LA razon*/
+.prim{
+    
+    height: 80px;
+}
+.sub{
+   position: absolute;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.soci{
+    width: 2%;
+    
+}
+.lr-rede .item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+.lr-rede .item {
+    color: #9a9a9a;
+    min-width: 26px;
+    height: 26px;
+    border: solid 1px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lr-rede {
+   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.text-right {  
+    text-align: right;
+    position: relative;
+    bottom:73px;
+}
+.logo{ 
+    max-height: 3rem;
+    position: absolute;
+    left: 15%;
+    
+}
+.noticia{
+    font-size: 40.75px;
+    color: #4d4d4d;
+    font-family: "Montserrat", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-block-start: 0.2em;
+}
+
+/*OPCINES MENU*/
+.lr-nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.lr-nav-menu>li {
+    font-size: 13px;
+    margin: 0 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.lr-nav-menu>li>a {
+    color: #404040;
+    text-align: center;
+    font-family: "Montserrat", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.lr-nav-menu>li>a:hover {
+    color: #BB2637;
+}
+
+/*AREA NOTICIAS*/
+
+.arean{
+    padding: 10px;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #d0021b;
+}
+.borde{
+    width: 6%;
+    padding: 5px;
+    border-bottom: solid 4px red;
+}

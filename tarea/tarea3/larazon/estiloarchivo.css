@@ -1,0 +1,44 @@
+.busqueda{
+  
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title {
+    color: #bb2637;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+.busy{
+     line-height : 50px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.busx{
+    position: absolute;
+    width: 80%;
+}
+.bus{
+    width: 80%;
+    text-align: right;
+    margin-left: auto;
+   
+    
+}
+input{
+    border: solid 1px #bb2637;
+    width: 50%;
+    padding: 0.5rem 0;
+}
+.boton{
+    background-color: red;
+    width: 80px;
+    color: white;
+}
+.botondos{
+    width: 80px;
+    color: red;
+}

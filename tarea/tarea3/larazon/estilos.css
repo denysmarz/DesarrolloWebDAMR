@@ -1,0 +1,66 @@
+.menucontenedor{
+    width: 85%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: solid 2px red;
+}
+/*LA razon*/
+.prim{
+    
+    height: 80px;
+}
+.sub{
+   position: absolute;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.soci{
+    width: 2%;
+    
+}
+
+.text-right {  
+    text-align: right;
+    position: relative;
+    bottom: 70px;
+}
+
+/*OPCINES MENU*/
+.lr-nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.lr-nav-menu>li {
+    font-size: 13px;
+    margin: 0 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.lr-nav-menu>li>a {
+    color: #404040;
+    text-align: center;
+    font-family: "Montserrat", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.lr-nav-menu>li>a:hover {
+    color: #BB2637;
+}
+
+.noticia{
+    font-size: 40.75px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    display: block!important;
+}

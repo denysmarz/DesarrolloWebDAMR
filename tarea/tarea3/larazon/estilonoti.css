@@ -1,0 +1,82 @@
+.ima{
+    position: relative;
+    left: 8%; 
+    width: 50%;
+    padding-top: 20px;
+    
+}
+
+.imgborde{
+    
+    border-bottom: solid 1px red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.final{
+    width: 100%;
+    background-color: rgb(202, 199, 199);
+    position: relative;
+    top: 50px;
+    padding-top: 20px;
+}
+.base{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.lr-suplementos-list {
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.lr-suplementos-list .suplemento:not(:last-child) {
+    margin-right: 0.6rem;
+}
+.lr-suplementos-list .suplemento {
+   
+    width: 35px;
+    padding: 1rem 1rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.fot{
+    width: 30px;
+}
+
+.lr-redes .item:not(:last-child) {
+    margin-right: 1.4rem;
+}
+.lr-redes .item {
+    color: #9a9a9a;
+    min-width: 29px;
+    height: 29px;
+    border: solid 1px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.lr-redes {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.tw{
+    width: 20px;
+}
+.copy{
+    border-top: solid 1px #4d4d4d;
+    text-align: center;
+}
+.fu{
+    padding-bottom: 20px;
+}
