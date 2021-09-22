@@ -1,0 +1,77 @@
+body{
+    background: url(imagenes/fondodos.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    margin:0;
+    flex-direction: column;
+}
+.contenedorr{
+    width: 100%;
+}
+.menur{
+    width: auto;
+    height: 100px;
+    background-color: black;
+    display:flex;
+   
+}
+.nombre>li{
+    padding-right: 100px;
+    font-size: 25px;
+}
+.nombre>li>a{
+     text-decoration: none;
+     color:white;
+}
+
+.botonr:hover{
+    background-color: white;
+    padding: 8px 10px;
+}
+
+
+.itemr{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 200px;
+}
+.itemr>li>a{
+   
+    text-decoration: none;
+    color:white;
+}
+.itemr>li {
+    font-size: 25px;
+    margin: 0 1.25rem;
+   /* margin-bottom: 1rem;*/
+}
+.itemr>li>a:hover {
+    color: #1b2fdf;
+}
+
+/*cuerpo*/
+
+.presentacionr{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+/*.imagenr{
+width: 100%;
+}   */
+.texto-encimar{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+}
