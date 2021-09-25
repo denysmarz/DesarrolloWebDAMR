@@ -1,0 +1,100 @@
+.contenedor{
+    width: 100%;
+    
+    background-color: rgb(199, 39, 39);
+    
+}
+/*indice*/
+.fondo{
+    background-color: rgb(252, 154, 26);
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.op{
+    width: auto;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+}
+
+.item{
+    list-style: none;
+    display: flex;
+    padding-left: 50px;
+}
+.item>li>a{
+    text-decoration: none;
+    color:white;
+}
+.item>li {
+    font-size: 13px;
+    margin: 0 1rem;
+}
+.boton:hover{
+    background-color: rgb(80, 80, 80);
+    
+}
+/*contenido derecha*/
+.contenido{
+    
+    width: 95%;
+    position: relative;
+    left: 30px;
+    
+}
+.leido{
+    text-align: left;
+   float: right;
+   padding-top: 60px;
+  
+}
+.lom{
+    color: teal;
+    font-size: 30px;
+   
+}
+.lomas{
+    height: 70px;
+    border-bottom: solid 1px black;
+    padding-top: 30px;
+}
+.noti{
+    padding-top: 15px;
+    position: absolute;
+}
+
+/*contenido izquierda*/
+.Ultimas-noticias{
+    border-top: solid 1px black ;
+    color: teal;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.arti{
+    width: 70%;
+    border-bottom: rgb(80, 80, 80) solid 1px;
+    padding-top: 50px;
+    
+}
+/*inicio*/
+
+.prim{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(71, 71, 71);
+    
+}
+.segun{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(77, 77, 77);
+    
+}
+.item-segun{
+    border-right: rgb(49, 49, 49) solid 1px;
+    padding-right: 30px;
+}
+.final{
+    padding-top: 30px;
+}

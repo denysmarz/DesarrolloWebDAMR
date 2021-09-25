@@ -1,0 +1,50 @@
+.contenedor{
+    width: 900px;
+    border:1px solid black;
+}
+.menu{
+    background-color: rgb(141, 1, 1);
+    padding-bottom: 20px;
+    color: white;
+}
+.imag{
+    padding-left: 100px;
+}
+/* opciones*/
+.op{
+    width: auto;
+    height: 100px;
+    background-color: rgb(8, 209, 245);
+    display: flex;
+}
+
+.item{
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+.item>li>a{
+   
+    text-decoration: none;
+    color:black;
+}
+.item>li {
+    font-size: 25px;
+    margin: 0 1.25rem;
+}
+.boton{
+    background-color: white;
+    padding: 8px 10px;
+    border:1px solid black;
+}
+/*texto*/
+.present{
+    padding-top: 20px;
+    background-color: rgb(0, 105, 241);
+}
+.pie{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: yellow;
+}
