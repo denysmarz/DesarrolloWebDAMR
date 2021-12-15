@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="num">numero</label>
+    <input type="number" name="num" id="">
+    <input type="radio" name="num" id="" value="factorial">FACTORIAL
+    <input type="radio" name="num" id="" value="fibo">FIBONACI 
+    <input type="button" value="Genera una tabla" onclick="genera_tabla()">
+     
+    <script>
+     function genera_tabla() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("GET", "parcial2.html", true);
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("mensaje").innerHTML = this.responseText;
+                }
+            }
+            
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>

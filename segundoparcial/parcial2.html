@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <div class="cuerpo">
+        <div id="pregu">
+            <center>
+
+            
+            <br><button class="rojo" onclick="nombre()">pregunta 1</button> <br><br>
+            <button class="verde" onclick="series()">pregunta 2</button> <br><br>
+            <button class="rojo" onclick="serieajax()">pregunta 3</button> <br><br>
+            <button class="verde"s>pregunta 4</button> <br><br>
+            <button class="rojo">pregunta 5</button> <br><br>
+            </center>
+        </div>
+        <div id="titulo">
+            Estudiante:......................................
+        </div>
+        <div id="contenido">
+            
+        </div>
+</div>
+    <div id="mensaje">
+        
+            2do Examen Parcial SIS-256
+    
+    </div>
+
+    <script>
+        function nombre() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("GET", "nombre.html", true);
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("titulo").innerHTML = this.responseText;
+                }
+            }
+            
+            xhttp.send();
+        }
+        //pregunta2
+        function series() {
+            var xhttp = new XMLHttpRequest();
+            var titu = new XMLHttpRequest();
+            xhttp.open("GET", "tabla.html", true);
+            titu.open("GET", "titu.html", true);
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                  
+                    document.getElementById("contenido").innerHTML = this.responseText;
+                    
+                }
+            }
+            titu.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("titulo").innerHTML = this.responseText;
+                    
+                    
+                }
+            }
+            titu.send();
+            xhttp.send();
+        }
+        //pregunta3
+        function serieajax() {
+            var xhttp = new XMLHttpRequest();
+            var titu = new XMLHttpRequest();
+            xhttp.open("GET", "tablaajax.html", true);
+            titu.open("GET", "tituajax.html", true);
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                  
+                    document.getElementById("contenido").innerHTML = this.responseText;
+                    
+                }
+            }
+            titu.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("titulo").innerHTML = this.responseText;
+                    
+                    
+                }
+            }
+            titu.send();
+            xhttp.send();
+        }
+    </script>
+
+</body>
+</html>

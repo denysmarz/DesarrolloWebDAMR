@@ -1,0 +1,36 @@
+.cuerpo{
+    border: red 2px solid;
+}
+#titulo{
+    background-color: rgb(21, 162, 228);
+    height: 40px;
+    color: white;
+    
+}
+#contenido{
+    height: 220px;
+}
+
+#pregu{
+    border: brown 2px solid;
+    width: 150px;
+    background-color: white;
+   float: right;
+}
+#mensaje{
+    background-color: brown;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+.rojo{
+    background-color: rgb(192, 79, 79);
+    padding: 15px 32px;
+    color: white;
+    margin: -50px;
+}
+.verde{
+    background-color: rgb(79, 145, 12);
+    padding: 15px 32px;
+    color: white;
+}
