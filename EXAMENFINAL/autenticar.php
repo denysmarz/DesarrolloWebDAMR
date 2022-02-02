@@ -1,17 +1,21 @@
 <?php 
-$nombrecompleto=$_POST['nombrecompleto'];
+$nombrecompleto=$_POST['nombcompleto'];
 $password=sha1($_POST['password']);
-include("conexion.php");
 
-$sql="select nombrecompleto, password from usuarios 
-where nombrecompleto='$nombrecompleto' and password='$password'";
+include 'conexion.php';
 
-$query=mysqli_query ($con, $sql);
-if($query){
-   echo "<a href='javascript:datos()'></a>";
+$sql="select * from usuarios where nombrecompleto='$nombrecompleto' and `password`='$password'";
+
+$query=mysqli_query ($conn, $sql);
+$fila = mysqli_fetch_array($query);
+if($fila){
+   
+    echo "AUTENTICADO CON EXITO";
 
 }
-else
-    echo "NO hay datos";
-
+else{
+ echo "ERROR EN LOS DATOS";
+ $nombrecompleto= 0;
+ $password=0;
+}
 ?>

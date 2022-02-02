@@ -1,0 +1,47 @@
+
+<!--<form action="insertar.php" method="POST" enctype="multipart/form-data" >
+    <label for="titulo">Titulo</label>
+    <input type="text" name="titulo" required> <br>
+
+    <label for="imagen">Imagen</label>
+    <input type="file" name="imagen" required> <br>
+
+    <label for="texto">Texto</label>
+    <textarea name="texto" required></textarea><br>
+    
+    <label for="tiponoti">Tipo</label>
+    <select name="tiponoti" >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    
+    </select>
+    
+    <br>
+    <input type="submit" value="Crear" >
+
+</form>-->
+
+
+
+<form method="post" enctype="multipart/form-data">
+    <label for="titulo">Titulo</label>
+    <input type="text" name="titulo" required id="titulo"> <br>
+
+    <label for="imagen">Imagen</label>
+    <input type="file" name="imagen" required id="imagen"> <br>
+
+    <label for="texto">Texto</label>
+    <textarea name="texto" required id="texto"></textarea><br>
+    
+    <label for="tiponoti">Tipo</label>
+    <select name="tiponoti" id="tiponoti">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    
+    </select>
+</form>
+    <br>
+    <button class="celeste-bg" onclick="crear()" id="boton">gener</button>
+
